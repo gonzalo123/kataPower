@@ -1,0 +1,9 @@
+Os han contratado para programar un microcontrolador, en él, hace falta calcular la potencia n-ésima de un número entero no negativo. Pero resulta que el microcontrolador es tan limitado, que no tiene operaciones para multiplicar (sí puede sumar y realizar las operaciones típicas con bits).
+
+Un buen compilador sabría transformar la sentencia
+
+n^m = n * n * n * ... n
+
+en un código con sólo sumas y operaciones de bits.
+
+¿Pero sabrías tú escribir ese código? (en tu lenguaje favorito, claro)
